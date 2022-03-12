@@ -1,17 +1,17 @@
 def add(num1, num2):
-    return num1 + num2
+	return num1 + num2
 
 
 def subtract(num1, num2):
-    return num1 - num2
+	return num1 - num2
 
 
 def divide(num1, num2):
-    return num1 / num2
+	return num1 / num2
 
 
 def mult(num1, num2):
-    return num1 * num2
+	return num1 * num2
 
 
 print("Please select operation -\n" \
@@ -22,16 +22,14 @@ print("Please select operation -\n" \
 
 # Take input from the user
 select = int(input("Select operations form 1, 2, 3, 4 :"))
-
+number_1, number_2 = int(input()), int(input())
 
 if select == 1:
-    print(number_1, "+", number_2, "=",
-          add(number_1, number_2))
-
+	print(number_1, "+", number_2, "=",
+	      add(number_1, number_2))
 elif select == 2:
-    print(number_1, "-", number_2, "=",
-          subtract(number_1, number_2))
-
+	print(number_1, "-", number_2, "=",
+	      subtract(number_1, number_2))
 elif select == 3:
     if number_2 == 0:
         print("error!")
