@@ -16,7 +16,7 @@ select = int(input("Select operations form 1, 2, 3, 4 :"))
 if select == 1:
       print(number_1, "+", number_2, "=",
             add(number_1, number_2))
-            add(number_1, number_2))
+
 elif select == 2:
       print(number_1, "-", number_2, "=",
             subtract(number_1, number_2))
