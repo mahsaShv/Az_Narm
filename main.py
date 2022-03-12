@@ -9,6 +9,11 @@ def subtract(num1, num2):
 def divide(num1, num2):
 	return num1 / num2
 
+
+def mult(num1, num2):
+	return num1 * num2
+
+
 print("Please select operation -\n" \
       "1. Add\n" \
       "2. Subtract\n" \
@@ -29,5 +34,5 @@ elif select == 3:
 	print(number_1, "/", number_2, "=",
 	      divide(number_1, number_2))
 elif select == 3:
-	print(number_1, "/", number_2, "=",
+	print(number_1, "*", number_2, "=",
 	      mult(number_1, number_2))
